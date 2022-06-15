@@ -1,0 +1,33 @@
+:root {
+  --main-bg-color: rgb(70,65,107);
+  --sec-bg-color: rgba(4,6,15,1); 
+}
+
+.Container_pag {
+  height: 100vh;
+  color: rgb(214, 214, 214);
+  background: #1F305E;
+  background: linear-gradient(90deg,#1F305E 20%, rgba(9,9,121,1) 80% 100%);
+}
+
+.Container_box {
+  margin-top: 20vh;
+  display: block;
+  text-align: justify;
+  align-items: center;
+}
+
+.Div_Block {
+  margin: 5vh;
+  margin-top: 25vh;
+  max-width: 50%;
+  display: inline-block;
+}
+
+.Div_Proj {
+  padding: 25vh;
+}
+
+.zoom {
+  height: 25vh;
+}
