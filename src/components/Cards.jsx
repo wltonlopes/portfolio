@@ -26,7 +26,7 @@ export default function Cards() {
         {
           arrayex.map((proj, index) => {
             return(
-              <Card key={ index }>
+              <Card key={ index } className='cards'>
               <Card.Img variant="top" src={ Img } alt="Imagem do projeto rodando" />
               <Card.Body>
                 <Card.Title>{proj.title}</Card.Title>

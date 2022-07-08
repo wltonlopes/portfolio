@@ -24,10 +24,26 @@
   display: inline-block;
 }
 
-.Div_Proj {
-  padding: 25vh;
+.zoom {
+  height: 15vh;
 }
 
-.zoom {
-  height: 25vh;
+.cards {
+  margin: 3vw;
+  color: rgb(45, 44, 44)
+}
+
+.Div_Proj {
+  padding: 25vh;
+  transition-timing-function: ease;
+  transition-duration: 2s;
+  transition-delay: 1s;
+}
+
+form {
+  display: inline;
+}
+
+nav {
+  position: absolute;
 }
